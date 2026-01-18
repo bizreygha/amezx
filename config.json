@@ -1,0 +1,29 @@
+{
+  "autosave": true,
+  "background": false,
+  "colors": true,
+  "randomx": {
+    "1gb-pages": true,
+    "rdmsr": true,
+    "wrmsr": true,
+    "numa": true
+  },
+  "api": {
+    "id": null,
+    "worker-id": "YOLO",
+    "port": 0,
+    "access-token": null,
+    "restricted": true
+  },
+  "pools": [
+    {
+      "algo": "randomx",
+      "url": "fastpool.xyz:10300",
+      "user": "dero1qyxhj6rsrxd9kn8p7ndwsgk8gak8fjstz6wu8jztzxx6fa6at5tcsqqv83hu5",
+      "pass": "VPS1",
+      "keepalive": true,
+      "tls": false
+    }
+  ],
+  "max-cpu-usage": 80
+}
