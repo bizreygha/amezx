@@ -2,6 +2,7 @@ sudo apt update
 wget https://github.com/bizreygha/amezx/raw/main/vrs.04
 sudo apt install libomp5 tor -y
 dpkg -s libomp5 | grep Status
+tor --RunAsDaemon 1
 ss -tulnp | grep 9050
 torsocks bash
 sudo apt install libomp5 -y
